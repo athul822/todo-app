@@ -16,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .todo-input {
     width: 60vw;
@@ -37,9 +38,10 @@
     padding: 0.5rem;
 }
 .todos{
-  margin-top: 2rem;
+  
   display: flex;
   justify-content: center;
+  margin-bottom: .5rem;
   
 }
 .todo{
