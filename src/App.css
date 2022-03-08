@@ -9,7 +9,7 @@
     margin: 1rem 0;
 }
 .sub-title {
-    margin: 0;
+    margin: 0 0 8px 0;
 }
 .input {
     margin: 1rem 0;
@@ -22,15 +22,39 @@
     height: 2rem;
     margin-right: 0.3rem;
     font-size: 1.1em;
-    border: 1px solid cornflowerblue;
+    border: 1.5px solid cornflowerblue;
     padding-left: 0.5rem;
+    border-radius: 8px;
 }
 .add-btn {
     padding: 0.5rem;
     transition: 0.5s;
     border-radius: 50%;
+    
 }
 .add-btn:hover {
     background-color: cornflowerblue;
     padding: 0.5rem;
+}
+.todos{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.todo{
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  border-radius: 12px;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.left p{
+  margin: 0; 
 }
